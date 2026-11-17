@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: hokkaido-land-value
+    runtime: static
+    buildCommand: "true"
+    staticPublishPath: ./public
